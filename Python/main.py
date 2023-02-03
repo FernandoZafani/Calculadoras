@@ -10,17 +10,16 @@ if __name__ == "__main__" :
         match operador:
             case "+":
                 soma()  
-                finalizar(fim)
+               
             case "-":
                 sub()
-                finalizar(fim)
+               
             case "/":
                 divisao()
-                finalizar(fim)
+                
             case "*":
                 mult()
-                finalizar(fim)
-
+                
             case "x":
                 fim = True
             case _ :

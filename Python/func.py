@@ -26,17 +26,5 @@ def mult() :
     num2 = float(input(f"{num1} x _ =\nSegundo número: "))
     return(print(f'{num1} x {num2} = {round(num1 * num2),2}'))
     
-    
-def finalizar(fim):
-    fim = fim 
-    end = False
-    while end == False:
-        aux = input("Deseja fazer outra conta?(Sim ou Não)")
-        if aux.lower == "nao" or "não" :
-            fim = True
-            return
-        elif aux.lower == "sim" :
-            return
-        else :
-            print("Opção invalida.")
+
             
